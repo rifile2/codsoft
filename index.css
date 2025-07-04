@@ -26,10 +26,10 @@ body {
     background-color: black;
     display: flex;
     justify-content: center;
-    /* horizontal centering */
+    
     align-items: center;
-    /* vertical centering */
+    
     height: 100vh;
-    /* make body full height of viewport */
+
     margin: 0;
 }

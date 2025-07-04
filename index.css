@@ -1,0 +1,35 @@
+#calculator {
+    border: 1px solid rgba(95, 95, 93);
+    border-radius: 5px;
+    width: 200px;
+}
+
+#display {
+    margin: 10px;
+    width: 85%;
+    font-size: 25px;
+}
+
+.button {
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    /* horizontal centering */
+    align-items: center;
+    /* vertical centering */
+    height: 100vh;
+    /* make body full height of viewport */
+    margin: 0;
+}
